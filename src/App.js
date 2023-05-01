@@ -1,10 +1,11 @@
-import Cards from './components/Cards'
+import Cards from './level-1/Cards'
 
 function App() {
   return (
-    <div className="App">
-      <h1>Memory Game - React</h1>
-      <Cards />
+    <div>
+      <div>
+        <Cards />
+      </div>
     </div>
   );
 }
